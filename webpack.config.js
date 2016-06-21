@@ -1,3 +1,5 @@
+var path = require("path");
+
 var CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
@@ -7,10 +9,10 @@ module.exports = {
     path: __dirname + '/dist/',
     publicPath: '/dist/',
   },
-  // devServer: {
-  //   outputPath: __dirname + '/dist/',
-  // },
-  module: {
+  resolveLoader: {
+      root: path.join(__dirname, 'node_modules')
+    },
+    module: {
       loaders: [
       {
         test: /\.jsx?$/,
@@ -20,6 +22,10 @@ module.exports = {
           presets: ['es2015', 'react'],
         },
       },
+      {
+            test: /\.rb$/,
+            loader: 'opalrb-loader'
+          },
       ]
     },
     plugins: [
