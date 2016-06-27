@@ -15,6 +15,7 @@
   "dependencies": {
     "bootswatch": "^3.3.6",
     "jquery": "^3.0.0",
+    "places.js": "^1.1.7",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
     "react-micro-bar-chart": "^1.0.0"
