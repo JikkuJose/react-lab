@@ -1,0 +1,3 @@
+[submodule "khan_academy-components"]
+	path = khan_academy-components
+	url = https://github.com/Khan/react-components.git
