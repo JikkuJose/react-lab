@@ -1,6 +1,6 @@
 import React from 'react'
-import MindMap from 'jj-react-mindmap';
-import { nodes, connections } from '../../data/sampleMap.js';
+import MindMap from 'react-mindmap';
+import { nodes, connections } from '../../../data/sampleMap.js';
 
 export function Map() {
   return(
