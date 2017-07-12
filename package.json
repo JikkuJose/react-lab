@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "gsap": "^1.20.2",
+    "jj-react-mindmap": "https://github.com/JikkuJose/react-mindmap#jj-convert-to-cra",
     "polished": "^1.2.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",

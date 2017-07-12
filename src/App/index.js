@@ -1,7 +1,7 @@
 import React from 'react'
 import { List } from './components/List'
 import { Controls } from './components/Controls'
-// import { Map } from './components/Map'
+import { Map } from './components/Map'
 
 const scientists = [
   {name: 'Tesla', id: '5d55d'},
