@@ -1,4 +1,3 @@
-import React from 'react'
 import styled from 'styled-components'
 
 export const ListItem = styled.li.attrs({
@@ -6,13 +5,3 @@ export const ListItem = styled.li.attrs({
 })`
   opacity: ${props => props.param === undefined ? 1 : props.param};
 `
-
-export class Scientist extends React.Component {
-  render() {
-    return(
-      <ListItem
-        {...this.props}
-      >{this.props.children}</ListItem>
-    );
-  }
-}
