@@ -1,7 +1,6 @@
 import React from 'react'
 import { List } from './components/List'
 import { Controls } from './components/Controls'
-import { Map } from './components/Map'
 
 const scientists = [
   {name: 'Tesla', id: '5d55d'},
@@ -28,7 +27,6 @@ export class App extends React.Component {
           toggleList={this.toggleList}
         />
         {showList && <List scientists={scientists} />}
-        {/* <Map /> */}
       </div>
     );
   }

@@ -8,7 +8,6 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-icons": "^2.2.5",
-    "react-mindmap": "https://github.com/JikkuJose/react-mindmap#jj-convert-to-cra",
     "react-motion": "^0.5.0",
     "react-router-dom": "^4.1.1",
     "react-scripts": "1.0.10",
@@ -16,12 +15,12 @@
     "tachyons": "^4.7.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "start": "NODE_PATH=src/ react-scripts start",
+    "build": "NODE_PATH=src/ react-scripts build",
+    "test": "NODE_PATH=src/ react-scripts test --env=jsdom",
+    "eject": "NODE_PATH=src/ react-scripts eject",
+    "storybook": "NODE_PATH=src/ start-storybook -p 6006",
+    "build-storybook": "NODE_PATH=src/ build-storybook"
   },
   "devDependencies": {
     "@storybook/react": "^3.1.8"
